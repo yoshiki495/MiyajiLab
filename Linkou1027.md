@@ -10,7 +10,7 @@
 - 研究機関
     - 京都大学 大学院情報学研究科
 - 発表学会名
-    - 日本ロボット学会
+    - 第33回日本ロボット学会学術講演会
 - 発行年
     - 2015年9月3日～5日
 
@@ -34,19 +34,23 @@
 
        ![スクリーンショット 2022-10-17 21 43 14](https://user-images.githubusercontent.com/68012132/196179946-696b935b-1deb-4c24-ab9c-4b79b8e42ba8.png)
 
-### 2.2 条件
+### 2.2 手法
 
-- 実験には幾何制約付きブラインド音源分離手法の一つであるGICAを使用する
-    - 幾何制約付きとは幾何的な手法を用いるということ
-    - ブラインド音源分離手法とは音のみを手がかりとして混ざった音を分離する手法
-    - GICAはGeometrically Constrained Independent Cmponent Analysisの略
+- GICA（Geometrically Constrained Independent Cmponent Analysis）
+    - 音源信号の独立性を仮定して，分離音が独立となるような分離行列を推定する手法
+    - 分離精度が高い
+- DSBF（Delay Sum Beam Forming）
+    - 注目音源の座標から各マイクへの到達時間差を推定し，観測信号を到達時間差だけ時間シフトして足し合わせることにより注目音を強調する音源分離手法
+    - 音源分離精度の予測が可能
+
+DSBFを用いて音源配置に応じたロボットの最適配置探索を行い、実際の音源分離はGICAを用いる。
 
 
 ## 3. 評価実験
 
-DSBFとGICAの分離精度の比較実験と，提案法による最適配置での分離精度の評価実験を行った．
+DSBFとGICAの分離精度の相関実験と，提案法による最適配置での分離精度の評価実験を行った．
 
-### 3.1 DSBFとGICAの分離精度の比較評価実験
+### 3.1 DSBFとGICAの分離精度の相関実験
 
 - 実験
     - １辺６mの正方形の部屋に音源３つ，ロボット１台, マイクロホンアレイを設置
@@ -67,5 +71,6 @@ DSBFとGICAの分離精度の比較実験と，提案法による最適配置で
         ![スクリーンショット 2022-10-18 22 48 31](https://user-images.githubusercontent.com/68012132/196448207-dd5d455e-7002-452c-9785-a6d0c67d4b19.png)
 
 ## 参考
+- http://sap.ist.i.kyoto-u.ac.jp/members/yoshii/papers/rsj-2015-sekiguchi.pdf
 - https://www.kecl.ntt.co.jp/icl/signal/sawada/mypaper/subspace2010rev.pdf
 
