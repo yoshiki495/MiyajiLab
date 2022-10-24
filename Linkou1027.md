@@ -71,6 +71,10 @@ DSBFとGICAの分離精度の相関実験と，提案手法による最適配置
         
         ![スクリーンショット 2022-10-18 22 48 31](https://user-images.githubusercontent.com/68012132/196448207-dd5d455e-7002-452c-9785-a6d0c67d4b19.png)
         
+## まとめ
+
+今後の課題として雑音に対するDSBFとGICAの性質の違いに考慮した最適配置探索を考える.
+        
 
 ## 参考
 - http://sap.ist.i.kyoto-u.ac.jp/members/yoshii/papers/rsj-2015-sekiguchi.pdf
