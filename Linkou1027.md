@@ -77,6 +77,9 @@ DSBFとGICAの分離精度の相関実験と，提案手法による最適配置
         
 
 ## 参考
-- http://sap.ist.i.kyoto-u.ac.jp/members/yoshii/papers/rsj-2015-sekiguchi.pdf
+- https://www.slideshare.net/DaichiKitamura/acoustic-modeling-in-audio-source-separation
 - https://www.kecl.ntt.co.jp/icl/signal/sawada/mypaper/subspace2010rev.pdf
+- https://www.jstage.jst.go.jp/article/ieejjournal/131/3/131_3_159/_pdf
+- https://www.jstage.jst.go.jp/article/jrsj/39/7/39_39_669/_pdf
+- https://www.jstage.jst.go.jp/article/jasj/74/3/74_156/_pdf
 
