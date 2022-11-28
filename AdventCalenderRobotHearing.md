@@ -2,7 +2,7 @@
 
 ## 1. はじめに
 
-どうもどうも、アドベントカレンダー4日目を担当する3年の[yoshiki495](https://github.com/yoshiki495)です。
+はいどうも、アドベントカレンダー4日目を担当する3年の[yoshiki495](https://github.com/yoshiki495)です。
 
 先日、HRIと京大が開発・公開しているHARK（Honda Research Institute Japan Audition for Robots with Kyoto University）というロボット聴覚のオープンソースソフトウェア（OSS）の講習会にお邪魔してきました。
 
@@ -10,7 +10,7 @@
 
 この記事ではHARKというロボット聴覚OSSを筆者の知識を織り混ぜながらできるだけわかりやすく説いていこうと思います。
 
-## 2. 音源分離とは
+## 2. ロボット聴覚とは
 
 ## 2. HARK の概要
 
